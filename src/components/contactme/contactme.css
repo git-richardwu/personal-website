@@ -1,0 +1,36 @@
+@font-face{
+    font-family: Ubuntu-B;
+    src: url(../fonts/Ubuntu-Bold.ttf)
+}
+
+.cardC {
+    margin: 45px auto 45px;
+    border-radius: 16px;
+    width: 85%;
+    height: 35%;
+    background-color: #272838;
+    opacity: 90%;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cardDescriptionC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.submitBtn {
+    color: white;
+    background-color: #F52F57;
+    padding: 10px;
+    border-radius: 12%;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Ubuntu-B;
+}
+
+.submitBtn:hover {
+    background-color: white;
+    color: #F52F57;
+}

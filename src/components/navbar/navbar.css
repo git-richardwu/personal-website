@@ -1,0 +1,87 @@
+@font-face{
+    font-family: Ubuntu-B;
+    src: url(../fonts/Ubuntu-Bold.ttf)
+}
+
+@font-face{
+    font-family: Ubuntu-M;
+    src: url(../fonts/Ubuntu-Medium.ttf)
+}
+
+.resumeButton {
+    color: white;
+    background-color: #F52F57;
+    padding: 10px;
+    border-radius: 12%;
+}
+
+.resumeButton:hover {
+    background-color: white;
+    color: #F52F57;
+}
+
+.navbar-style {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    background-color: #00bfff;
+    /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .5) */
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbar-style__invis {
+    background-color: transparent;
+}
+
+.navbar-style .name {
+    flex: 30%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar-style .content {
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.navbar-style .name .name-style{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    color: white;
+    font-family: Ubuntu-B;
+
+}
+
+.navbar-style .name .icon-style{
+    padding-top: 5px;
+    color: white;
+    margin-left: 0.5rem;
+    transition: 0.3s;
+}
+
+.navbar-style .name .icon-style:hover{
+    color: #F52F57;
+}
+
+.navbar-style .content .link-styles a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: Ubuntu-M;
+
+}
+
+.navbar-style .content .link-styles a:hover{
+    color: #F52F57;
+    cursor: pointer;
+    transition: 0.3s;
+}

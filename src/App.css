@@ -1,0 +1,235 @@
+@font-face{
+    font-family: Ubuntu-B;
+    src: url(./components/fonts/Ubuntu-Bold.ttf)
+}
+
+@font-face{
+    font-family: Ubuntu-M;
+    src: url(./components/fonts/Ubuntu-Medium.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    position: relative;
+    background-color: #272838;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.shape {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.text-style {
+    display: grid;
+    /* color: #00bfff; */
+    color: white;
+    font-family: Ubuntu-B;
+    font-size: 60px;
+    padding-top: 90px;
+    place-items: center;
+    position: relative;
+    /* transition-timing-function: ease-in;
+    transition: 0.5s; */
+}
+
+.text-style2 {
+    display: grid;
+    color: white;
+    font-family: Ubuntu-B;
+    font-size: 25px;
+    place-items: center;
+    position: relative;
+}
+
+.shape div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* border: 6px solid white; */
+    z-index: -1;
+
+}
+
+.shape div:nth-child(1){
+    top: 32%;
+    left: 12%;
+    /* background-color: ; */
+    width: 0;
+	height: 0;
+    border-radius: 15px;
+    border: 50px solid transparent;
+    border-bottom: 70px solid #804DDC;
+    animation: animate 7s linear infinite;
+}
+
+.shape div:nth-child(2){
+    top: 17%;
+    left: 5%;
+    width: 80px;
+	height: 80px;
+    border-radius: 50%;
+    background-color: springgreen;
+    animation: animate 10s linear infinite;
+
+}
+.shape div:nth-child(3){
+    top: 67%;
+    left: 48%;
+    width: 50px;
+	height: 50px;
+    border-radius: 50%;
+    background-color: #FE9007;
+    animation: animate 11s linear infinite;
+}
+
+.shape div:nth-child(4){
+    top: 18%;
+    left: 92%;
+    width: 0;
+	height: 0;
+    border-radius: 15px;
+    border: 50px solid transparent;
+    border-bottom: 70px solid springgreen;
+    /* background-color: springgreen; */
+    animation: animate 9s linear infinite;
+}
+
+.shape div:nth-child(5){
+    top: 48%;
+    left: 92%;
+    border-radius: 15px;
+    background-color: #804DDC;
+    animation: animate 8s linear infinite;
+    
+}
+
+.shape div:nth-child(5){
+    top: 18%;
+    left: 32%;
+    border-radius: 15px;
+    background-color: #FE9007;
+    animation: animate 9s linear infinite;
+}
+
+.shape div:nth-child(6){
+    top: 48%;
+    left: 92%;
+    width: 50px;
+	height: 50px;
+    border-radius: 50%;
+    background-color: #804DDC;
+    animation: animate 7s linear infinite;
+}
+
+.shape div:nth-child(7){
+    top: 43%;
+    left: 22%;
+    border-radius: 15px;
+    background-color: #F52F57;
+    animation: animate 8s linear infinite;
+}
+
+.shape div:nth-child(8){
+    top: 32%;
+    left: 78%;
+    width: 50px;
+	height: 50px;
+    border-radius: 50%;
+    background-color: #F52F57;
+    animation: animate 8s linear infinite;
+}
+
+.shape div:nth-child(9){
+    top: 36%;
+    left: 51%;
+    border-radius: 15px;
+    background-color: springgreen;
+    animation: animate 7s linear infinite;
+}
+
+.shape div:nth-child(9){
+    top: 36%;
+    left: 51%;
+    border-radius: 15px;
+    background-color: #804DDC;
+    animation: animate 7s linear infinite;
+}
+
+.shape div:nth-child(10){
+    top: 64%;
+    left: 31%;
+    border-radius: 15px;
+    background-color: springgreen;
+    animation: animate 15s linear infinite;
+}
+
+.shape div:nth-child(11){
+    top: 75%;
+    left: 1%;
+    width: 50px;
+	height: 50px;
+    border-radius: 50%;
+    background-color: #FE9007;
+    animation: animate 7s linear infinite;
+}
+
+/* .shape div:nth-child(12){
+    top: 89%;
+    left: 87%;
+    border-radius: 15px;
+    background-color: white;
+    animation: animate 2s linear infinite;
+
+} */
+
+.shape div:nth-child(12){
+    top: 58%;
+    left: 72%;
+    width: 0;
+	height: 0;
+    border-radius: 15px;
+    border: 50px solid transparent;
+    border-bottom: 70px solid #FE9007;
+    /* background-color: #FE9007; */
+    animation: animate 9s linear infinite;
+}
+
+.shape div:nth-child(13){
+    top: 63%;
+    left: 59%;
+    width: 0;
+	height: 0;
+    border-radius: 15px;
+    border: 50px solid transparent;
+    border-bottom: 70px solid #F52F57;
+    /* background-color: #FE9007; */
+    animation: animate 10s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+       /* transform: translateY(0); */
+    }
+
+    100% {
+        transform: scale(1.5) translateY(100px) rotate(360deg);
+        opacity: 0;
+        /* transform: translateY(-80px); */
+    }
+}

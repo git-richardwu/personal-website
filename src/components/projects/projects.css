@@ -1,0 +1,163 @@
+@font-face{
+    font-family: Ubuntu-M;
+    src: url(../fonts/Ubuntu-Medium.ttf)
+}
+
+.cardP {
+    margin: 45px auto 20px;
+    padding-bottom: 45px;
+    border-radius: 16px;
+    width: 85%;
+    height: 1%;
+    background-color: #272838;
+    overflow: hidden;
+    opacity: 90%;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.cardBodyP {
+    padding: 1rem;
+}
+
+.projectCard{
+    margin: 45px 25px 0;
+    /* margin-left: 50px; */
+    float: left;
+    border-radius: 16px;
+    height: 600px;
+    /* width: 340px; */
+    width: 30%;
+    transition: 0.5s ease;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.projectCard:nth-child(1){
+    background-color: #555555;
+   
+}
+
+.projectCard:nth-child(2){
+    background-color: #6FD397;
+}
+
+.projectCard:nth-child(3){
+    background-color: #7289DA;
+}
+
+.cardHeaderP {
+    font-size: 25px;
+    color: white;
+    opacity: 100%;
+    position: relative;
+
+}
+
+.projectCardHeader {
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    opacity: 100%;
+    text-align: center;
+    font-family: Ubuntu-M;
+}
+
+.projectCardDesc {
+    margin: 10px;
+    /* font-size: 1rem; */
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.projectCardList {
+    display: block;
+    margin: 5px;
+    /* font-size: 16px; */
+    font-size: 0.9vw;
+    color: white;
+    overflow: auto;
+    text-align: center;
+}
+
+.alignBullet {
+    /* margin-top: 20px; */
+    list-style-position: inside;
+}
+
+ul li { 
+    padding: 3px 0px;
+}
+
+.externalLinks {
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.icon-styleP {
+    color: white;
+}
+
+.tech {
+    position: absolute;
+    opacity: 12%;
+}
+
+.tech:nth-child(2) {
+    top: 10px;
+    left: 120px;
+}
+
+.icon-styleP:hover {
+    color: #F52F57;
+    transition: 0.3s;
+}
+
+.date {
+    margin: 20px;
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.iconP {
+    margin-bottom: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    color: white;
+    transition: 0.5s ease;
+    /* -webkit-transform: translateX(-50%);
+    transform: translateX(-50%) */
+}
+
+.projectCard:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 5px 18px white;
+}
+
+.projectCard:nth-child(1):hover{
+    /* background: linear-gradient(#555555, #F58F7C); */
+    /* background: linear-gradient(gray, #F52F57); */
+    /* background: linear-gradient(#3f87a6, #F69D3C); */
+    background: linear-gradient(gray, #F69D3C);
+}
+.projectCard:nth-child(2):hover{
+    background: linear-gradient(#6FD397, #00bfff);
+}
+.projectCard:nth-child(3):hover{
+    background: linear-gradient(#7289DA, #e66465);
+}
+
+.projectCard:hover .iconP{
+    transform: scale(1.5);
+}
+
+.cardDivider {
+    border: 1px dashed white;
+}
