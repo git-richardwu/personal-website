@@ -7,17 +7,6 @@ import './projects.css'
 
 export default function Projects() {
 
-    // const [offset, setOffset] = useState(0);
-    // const handleScroll = () => setOffset(window.pageYOffset);
-
-
-    // useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll);
-    //     console.log(offset)
-    //     return () =>  window.removeEventListener("scroll", handleScroll);
-    
-    // }, [offset]);
-
     return (
         <div className="cardP">
             <div className="cardBodyP">
