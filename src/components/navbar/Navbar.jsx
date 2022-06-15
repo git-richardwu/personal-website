@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, animateScroll } from 'react-scroll';
 import { FaGithubAlt, FaLinkedin } from 'react-icons/fa'
+import resume from './Resume.pdf'
 import './navbar.css'
 
 export default function Navbar() {
@@ -35,7 +36,7 @@ export default function Navbar() {
                     <Link to="skills" smooth={true} offset={-100} duration={1000}>Skills</Link>
                     <Link to="projects" smooth={true} offset={-100} duration={1000}>Projects</Link>
                     <Link to="contactme" smooth={true} offset={-100} duration={1000}>Contact</Link>
-                    <a className="resumeButton" rel="noopener noreferrer" target="_blank" href={process.env.PUBLIC_URL + '/Resume.pdf'}>Resume</a>
+                    <a className="resumeButton" rel="noopener noreferrer" target="_blank" href={resume}>Resume</a>
                     {/*Dark Mode*/}
                 </div>
 
