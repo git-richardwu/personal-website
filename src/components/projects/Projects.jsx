@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiExternalLink } from 'react-icons/hi'
-import { FaGithub, FaDesktop, FaDiscord, FaReact, FaPython } from 'react-icons/fa'
+import { FaGithub, FaDesktop, FaDiscord} from 'react-icons/fa'
 import { IoRestaurant } from 'react-icons/io5'
 
 import './projects.css'
@@ -32,9 +32,6 @@ export default function Projects() {
                                <li>Oversaw and maintained proper pipelining of application on Zenhub</li>
                            </ul>
                        </div>
-                       <div className="tech">
-                                <FaReact size="17rem"/>
-                        </div>
                        <div className="date">2020</div>
                        <div className="iconP"><FaDesktop size="1.5rem"/></div>
                     </div>
@@ -54,9 +51,6 @@ export default function Projects() {
                                <li>Composed and reviewed user stories, acceptance tests, and task tests</li>
                                <li>Conducted usability tests and contributed design ideas with user accessibility in mind</li>
                            </ul>
-                           <div className="tech">
-                                <FaReact size="17rem"/>
-                           </div>
                        </div>
                        <div className="date">2021</div>
                        <div className="bgCircle">
@@ -78,9 +72,6 @@ export default function Projects() {
                                <li>Revamped structure of code by introducing modularity to improve scalability and efficiency</li>
                            </ul>
                        </div>
-                            <div className="tech">
-                                <FaPython size="17rem"/>
-                           </div>
                         <div className="date">2021</div>
                         <div className="iconP"><FaDiscord size="2rem"/></div>
                     </div>

@@ -49,7 +49,6 @@
 .cardHeaderP {
     font-size: 25px;
     color: white;
-    opacity: 100%;
     position: relative;
 
 }
@@ -58,7 +57,6 @@
     margin: 10px;
     font-size: 25px;
     color: white;
-    opacity: 100%;
     text-align: center;
     font-family: Ubuntu-M;
 }
@@ -103,7 +101,6 @@ ul li {
 
 .tech {
     position: absolute;
-    opacity: 12%;
 }
 
 .tech:nth-child(2) {

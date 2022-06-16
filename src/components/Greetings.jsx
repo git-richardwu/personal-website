@@ -1,4 +1,4 @@
-// import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect';
 import React from 'react'
 import '../App.css'
 
@@ -6,15 +6,13 @@ export default function Greetings() {
   return (
     <div>
       <div className="text-style">
-          {/* <Typewriter
+          <Typewriter
             onInit={(typewriter) => {
             typewriter.typeString('Hello! My name is Richard Wu.')
             .pauseFor(1500)
             typewriter.typeString(' :^)')
             .start();
-          }}
-          /> */}
-          Hello! My name is Richard Wu.
+          }}/>
       </div>
       <div className="text-style2">
            Front End Developer | College Graduate | Amateur Game Developer
