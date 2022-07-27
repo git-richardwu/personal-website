@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/personal-website/static/media/Resume.35c35124.pdf"
   },
   {
-    "revision": "8e22c2a6e3a3c679787e763a97fa11f7",
-    "url": "/personal-website/static/media/Ubuntu-Medium.8e22c2a6.ttf"
-  },
-  {
     "revision": "e00e2a77dd88a8fe75573a5d993af76a",
     "url": "/personal-website/static/media/Ubuntu-Bold.e00e2a77.ttf"
   },
   {
-    "revision": "9a9927f1fbce06ef212b045d682470f2",
+    "revision": "8e22c2a6e3a3c679787e763a97fa11f7",
+    "url": "/personal-website/static/media/Ubuntu-Medium.8e22c2a6.ttf"
+  },
+  {
+    "revision": "93ab11baa72e872ed7943b3f15f7d704",
     "url": "/personal-website/index.html"
   }
 ];
