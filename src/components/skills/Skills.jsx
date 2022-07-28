@@ -20,7 +20,7 @@ export default function Skills() {
                                     </li>
                                     <li>
                                         <strong>Tools and Platforms: </strong>
-                                            Git, Postman
+                                            Git, Postman, MongoDB
                                     </li>
                                     <li>
                                         <strong>Design: </strong>
@@ -32,7 +32,7 @@ export default function Skills() {
                                     </li>
                                     <li>
                                         <strong>Clubs and Activity: </strong>
-                                            Asian American Student Union, Robotics Clubs
+                                            Asian American Student Union, Robotics Club
                                     </li>
                                     
                                 </ul>
