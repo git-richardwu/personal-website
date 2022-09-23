@@ -16,11 +16,11 @@ export default function Skills() {
                                     </li>
                                     <li>
                                         <strong>Frameworks: </strong>
-                                            Bootstrap, React
+                                            Bootstrap, React, Express
                                     </li>
                                     <li>
                                         <strong>Tools and Platforms: </strong>
-                                            Git, Postman, MongoDB
+                                            Git, Postman, MongoDB, NodeJS
                                     </li>
                                     <li>
                                         <strong>Design: </strong>
