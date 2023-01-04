@@ -47,6 +47,10 @@
     background-color: #7289DA;
 }
 
+.projectCard#collaj{
+    background-color: #296C97;
+}
+
 .cardHeaderP {
     font-size: 25px;
     color: white;
@@ -132,6 +136,9 @@ ul li {
 }
 .projectCard#bao:hover{
     background: linear-gradient(#7289DA, #e66465);
+}
+.projectCard#collaj:hover{
+    background: linear-gradient(#296C97, #333);
 }
 
 .projectCard:hover .iconP{

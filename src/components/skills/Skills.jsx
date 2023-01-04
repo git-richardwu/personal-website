@@ -12,19 +12,15 @@ export default function Skills() {
                                 <ul>
                                     <li>
                                         <strong>Programming Languages: </strong>
-                                            Python, Javascript, Scala, C, OCaml, HTML, CSS
+                                            Python, JavaScript, Scala, HTML, CSS, C, OCaml
                                     </li>
                                     <li>
-                                        <strong>Frameworks: </strong>
-                                            Bootstrap, React, Express
+                                        <strong>Frameworks and Packages: </strong>
+                                            Bootstrap, React, Express, NodeJS, Mocha, Chai, Puppeteer, Pandas, NumPy
                                     </li>
                                     <li>
                                         <strong>Tools and Platforms: </strong>
-                                            Git, Postman, MongoDB, NodeJS
-                                    </li>
-                                    <li>
-                                        <strong>Design: </strong>
-                                            Figma
+                                            Git/GitHub, VS Code, Postman, MongoDB, Figma
                                     </li>
                                     <li>
                                         <strong>Coursework: </strong>
@@ -33,6 +29,10 @@ export default function Skills() {
                                     <li>
                                         <strong>Clubs and Activity: </strong>
                                             Asian American Student Union, Robotics Club
+                                    </li>
+                                    <li>
+                                        <strong>Interests: </strong>
+                                            Unity Game Engine, Cooking, Chess, Dragon Boat
                                     </li>
                                     
                                 </ul>
