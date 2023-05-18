@@ -12,7 +12,7 @@ export default function Skills() {
                                 <ul>
                                     <li>
                                         <strong>Programming Languages: </strong>
-                                            Python, JavaScript, Scala, Dart, HTML, CSS, C, OCaml
+                                            Python, JavaScript, TypeScript, Scala, Dart, HTML, CSS, Sass, C, OCaml
                                     </li>
                                     <li>
                                         <strong>Frameworks and Packages: </strong>

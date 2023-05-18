@@ -35,7 +35,7 @@
 }
 
 .projectCard#virtualDesktop{
-    background-color: #555555;
+    background-color: #F47174;
    
 }
 
@@ -49,6 +49,10 @@
 
 .projectCard#collaj{
     background-color: #296C97;
+}
+
+.projectCard#feedTheCat{
+    background-color: #424242;
 }
 
 .cardHeaderP {
@@ -129,7 +133,7 @@ ul li {
 }
 
 .projectCard#virtualDesktop:hover{
-    background: linear-gradient(gray, #F69D3C);
+    background: linear-gradient(#F47174, #F69D3C);
 }
 .projectCard#foodForThought:hover{
     background: linear-gradient(#6FD397, #00bfff);
@@ -139,6 +143,9 @@ ul li {
 }
 .projectCard#collaj:hover{
     background: linear-gradient(#296C97, #333);
+}
+.projectCard#feedTheCat:hover{
+    background: linear-gradient(#424242, #EB9199);
 }
 
 .projectCard:hover .iconP{

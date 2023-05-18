@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiExternalLink } from 'react-icons/hi'
-import { FaGithub, FaDesktop, FaDiscord, FaImages } from 'react-icons/fa'
+import { FaGithub, FaDesktop, FaDiscord, FaImages, FaCat } from 'react-icons/fa'
 import { IoRestaurant } from 'react-icons/io5'
 
 import './projects.css'
@@ -50,13 +50,35 @@ export default function Projects() {
                                 <ul className="alignBullet">
                                     <li>Designed and implemented subscription-based system where users can request recipes from different cuisines</li>
                                     <li>Expanded functionality to fetch trending Reddit posts from specific forums with PRAW</li>
-                                    <li>Revamped structure of code by introducing modularity to improve scalability and maintainability</li>
+                                    <li>Revamped structure of code by introducing modularity to improve scalability and clarity</li>
                                 </ul>
                             </div>
                             <hr className="cardDivider"></hr>
                             <div className="projectCardDesc">Python, Flask</div>
                             <div className="date">2021</div>
                             <div className="iconP"><FaDiscord size={29} /></div>
+                        </div>
+                    </div>
+                    <div className="column">
+                        <div id="foodForThought" className="projectCard">
+                            <div className="projectCardHeader">Food for Thought</div>
+                            <div className="projectCardDesc">Recipe sharing social media platform with a tag-based recommendation system</div>
+                            <hr className="cardDivider"></hr>
+                            <div className="externalLinks">
+                                <a href="https://github.com/git-richardwu/food-for-thought" rel="noopener noreferrer" target="_blank" className="icon-styleP"><FaGithub size={35} /></a>
+                            </div>
+                            <div className="projectCardList">
+                                <ul className="alignBullet">
+                                    <li>Designed wireframe with interactive flows using Figma to streamline production time by a week</li>
+                                    <li>Spearheaded implementation of features (including profile picture, onboarding process, and profile navigation) to enhance user experience and usability</li>
+                                    <li>Composed and reviewed user stories, acceptance tests, and task tests to ensure code quality</li>
+                                    <li>Conducted usability tests and highlighted design decisions with accessibility principles in mind</li>
+                                </ul>
+                            </div>
+                            <hr className="cardDivider"></hr>
+                            <div className="projectCardDesc">Swagger, React, Javascript</div>
+                            <div className="date">2021</div>
+                            <div className="iconP"><IoRestaurant size={25} /></div>
                         </div>
                     </div>
                     <div className="column">
@@ -82,26 +104,28 @@ export default function Projects() {
                             <div className="iconP"><FaImages size={29} /></div>
                         </div>
                     </div>
+                    
                     <div className="column">
-                        <div id="foodForThought" className="projectCard">
-                            <div className="projectCardHeader">Food for Thought</div>
-                            <div className="projectCardDesc">Recipe sharing social media platform with a tag-based recommendation system</div>
+                        <div id="feedTheCat" className="projectCard">
+                            <div className="projectCardHeader">feed the cat.</div>
+                            <div className="projectCardDesc">Fast-paced browser game that involves accurately preparing and delivering dishes to feline patrons</div>
                             <hr className="cardDivider"></hr>
                             <div className="externalLinks">
-                                <a href="https://github.com/git-richardwu/food-for-thought" rel="noopener noreferrer" target="_blank" className="icon-styleP"><FaGithub size={35} /></a>
+                                <a href="https://git-richardwu.github.io/feed-the-cats/" rel="noopener noreferrer" target="_blank" className="icon-styleP"><HiExternalLink size={35} /></a>
+                                <a href="https://github.com/git-richardwu/feed-the-cats" rel="noopener noreferrer" target="_blank" className="icon-styleP"><FaGithub size={35} /></a>
                             </div>
                             <div className="projectCardList">
                                 <ul className="alignBullet">
-                                    <li>Designed wireframe with interactive flows using Figma to streamline production time by a week</li>
-                                    <li>Spearheaded implementation of features (including profile picture, onboarding process, and profile navigation) to enhance user experience and usability</li>
-                                    <li>Composed and reviewed user stories, acceptance tests, and task tests to ensure code quality</li>
-                                    <li>Conducted usability tests and highlighted design decisions with accessibility principles in mind</li>
+                                    <li>Wrote the game's logic in React and TypeScript to efficiently update components and assets, optimizing overall responsiveness and fluidity of gameplay loop</li>
+                                    <li>Configured random sequence and position generation along with a retentive scoring system to increase player engagement</li>
+                                    <li>Incorporated minimalist interface with animations to provide visual feedback and readability</li>
+                                    <li>Leveraged the benefits of TypeScript's static typing to allow for smooth integration with React, improving code reliability and maintainability</li>
                                 </ul>
                             </div>
                             <hr className="cardDivider"></hr>
-                            <div className="projectCardDesc">Swagger, React, Javascript</div>
-                            <div className="date">2021</div>
-                            <div className="iconP"><IoRestaurant size={25} /></div>
+                            <div className="projectCardDesc">React, TypeScript, Sass</div>
+                            <div className="date">2023</div>
+                            <div className="iconP"><FaCat size={25} /></div>
                         </div>
                     </div>
                 </div>
