@@ -25,7 +25,7 @@ export default function Projects() {
                             </div>
                             <div className="projectCardList">
                                 <ul className="alignBullet">
-                                    <li>Devised and punctually delivered features for weekly project meetings alongside a team of four following the Scrum technique</li>
+                                    <li>Devised and delivered features for weekly project meetings alongside a team of 4 following the Scrum technique, resulting in a 100% on-time delivery rate over a 3-month period</li>
                                     <li>Co-lead front-end development of application with React and prototyped user interface</li>
                                     <li>Produced a series of quality-of-life components (including global timer, dark mode, and search bar)</li>
                                     <li>Oversaw and maintained proper pipelining of application on Zenhub to evaluate task priorities</li>
@@ -84,7 +84,7 @@ export default function Projects() {
                     <div className="column">
                         <div id="collaj" className="projectCard">
                             <div className="projectCardHeader">Collaj</div>
-                            <div className="projectCardDesc">MERN-based web application of a responsive art gallery that sorts entries by hue</div>
+                            <div className="projectCardDesc">MERN-based web application of a dynamic art gallery that sorts entries by hue</div>
                             <hr className="cardDivider"></hr>
                             <div className="externalLinks">
                                 <a href="https://collaj.onrender.com" rel="noopener noreferrer" target="_blank" className="icon-styleP"><HiExternalLink size={35} /></a>
@@ -94,7 +94,7 @@ export default function Projects() {
                                 <ul className="alignBullet">
                                     <li>Built and deployed REST API using Express and NodeJS to perform CRUD operations with MongoDB</li>
                                     <li>Developed encrypted authentication system with JWT and BCrypt for persistent user sessions</li>
-                                    <li>Utilized Puppeteer to scrape relevant artwork data (including image link, project title, and artist name) from URL submissions</li>
+                                    <li>Utilized Puppeteer to scrape relevant artwork data (including image link, project title, and artist name) from 100+ URL submissions</li>
                                     <li>Integrated an automated test suite with Mocha and Chai to verify behavior and performance</li>
                                 </ul>
                             </div>
