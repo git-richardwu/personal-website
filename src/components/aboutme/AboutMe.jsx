@@ -9,11 +9,11 @@ export default function AboutMe() {
                     About Me
                     <hr></hr>
                         <div className="cardDescription">
-                            I am a college graduate holding a Bachelor's Degree in Computer Science from the University at Buffalo. I am a 
-                            first-generation Asian American and I currently reside in the ever-bustling New York City. Growing up, an interest in pursuing art as a career led me to develop a
-                            keen eye for detail and design. While those ambitions have now become more of a pastime,
-                            I strive to channel that creativity into developing software and applications.
-                            My hobbies include listening to music, cooking, and developing video games.
+                        I am a college graduate with a Bachelor's Degree in Computer Science from the University at Buffalo, specializing in front-end development within team projects. 
+                        My experience extends to full-stack development, particularly with MERN stack, I have a strong passion for UI/UX design and actively prototype interfaces for every project I am involved in. 
+                        Proficient in the Agile methodology, I thrive in collaborative work environments and am always eager to learn new technologies. 
+                        With a portfolio encompassing personal projects such as a dynamic hue sorting gallery and a browser typing game, I am now seeking a role in software engineering where I can continue to expand my skills, 
+                        contribute to innovative projects, and fuel my continuous growth as a developer.
                         </div>
                 </div>
             </div>
