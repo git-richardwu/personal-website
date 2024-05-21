@@ -1,16 +1,16 @@
 {
-  "main.css": "/personal-website/static/css/main.6ed332ed.chunk.css",
-  "main.js": "/personal-website/static/js/main.7c1e8a16.chunk.js",
-  "main.js.map": "/personal-website/static/js/main.7c1e8a16.chunk.js.map",
-  "static/js/1.db370072.chunk.js": "/personal-website/static/js/1.db370072.chunk.js",
-  "static/js/1.db370072.chunk.js.map": "/personal-website/static/js/1.db370072.chunk.js.map",
-  "runtime~main.js": "/personal-website/static/js/runtime~main.7de33939.js",
-  "runtime~main.js.map": "/personal-website/static/js/runtime~main.7de33939.js.map",
-  "static/media/Resume.pdf": "/personal-website/static/media/Resume.08900969.pdf",
-  "static/media/contactme.css": "/personal-website/static/media/Ubuntu-Bold.e00e2a77.ttf",
-  "static/media/projects.css": "/personal-website/static/media/Ubuntu-Medium.8e22c2a6.ttf",
-  "static/css/main.6ed332ed.chunk.css.map": "/personal-website/static/css/main.6ed332ed.chunk.css.map",
-  "index.html": "/personal-website/index.html",
-  "precache-manifest.1d767d7948af78deb7891d6e5d7efbea.js": "/personal-website/precache-manifest.1d767d7948af78deb7891d6e5d7efbea.js",
-  "service-worker.js": "/personal-website/service-worker.js"
+  "files": {
+    "main.css": "/personal-website/static/css/main.9dd5f95c.css",
+    "main.js": "/personal-website/static/js/main.0feaf323.js",
+    "static/media/Ubuntu-Medium.ttf": "/personal-website/static/media/Ubuntu-Medium.90c045b7547db9275807.ttf",
+    "static/media/Ubuntu-Bold.ttf": "/personal-website/static/media/Ubuntu-Bold.50114233a7432c29c43d.ttf",
+    "static/media/Resume.pdf": "/personal-website/static/media/Resume.bf3ed534e618524ddaf8.pdf",
+    "index.html": "/personal-website/index.html",
+    "main.9dd5f95c.css.map": "/personal-website/static/css/main.9dd5f95c.css.map",
+    "main.0feaf323.js.map": "/personal-website/static/js/main.0feaf323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd5f95c.css",
+    "static/js/main.0feaf323.js"
+  ]
 }
