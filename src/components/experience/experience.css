@@ -18,8 +18,8 @@
     padding: 1rem;
 }
 
-.projectCard{
-    margin: 45px 25px 0;
+.jobCard{
+    margin: 25px 55px 0;
     border-radius: 16px;
     transition: 0.5s ease;
     box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
@@ -27,31 +27,8 @@
     overflow: hidden;
 }
 
-.column {
-    float: left;
-    width: 32%;
-    padding: 0 10px;
-}
-
-.projectCard#virtualDesktop{
-    background-color: #F47174;
-   
-}
-
-.projectCard#foodForThought{
-    background-color: #6FD397;
-}
-
-.projectCard#bao{
-    background-color: #7289DA;
-}
-
-.projectCard#collaj{
-    background-color: #296C97;
-}
-
-.projectCard#feedTheCat{
-    background-color: #424242;
+.jobCard#newDesign{
+    background-color: #2F99D4;
 }
 
 .cardHeaderP {
@@ -61,7 +38,7 @@
 
 }
 
-.projectCardHeader {
+.jobCardHeader {
     margin: 10px;
     font-size: 25px;
     color: white;
@@ -69,14 +46,14 @@
     font-family: Ubuntu-M;
 }
 
-.projectCardDesc {
+.jobCardDesc {
     margin: 10px;
     font-size: 1rem;
     color: white;
     text-align: center;
 }
 
-.projectCardList {
+.jobCardList {
     display: block;
     margin: 5px;
     font-size: 1rem;
@@ -93,23 +70,7 @@ ul li {
     padding: 3px 0px;
 }
 
-.externalLinks {
-    margin: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.icon-styleP {
-    color: white;
-}
-
-.icon-styleP:hover {
-    color: #F52F57;
-    transition: 0.3s;
-}
-
-.date {
+.dateJ {
     margin: 20px;
     font-size: 1.2rem;
     color: white;
@@ -117,7 +78,7 @@ ul li {
     left: 0;
 }
 
-.iconP {
+.iconJ {
     margin-bottom: 15px;
     position: absolute;
     left: 47%;
@@ -126,32 +87,20 @@ ul li {
     transition: 0.5s ease;
 }
 
-.projectCard:hover{
+.jobCard:hover{
     transform: scale(1.05);
     box-shadow: 5px 5px 18px white;
 }
 
-.projectCard#virtualDesktop:hover{
-    background: linear-gradient(#F47174, #F69D3C);
-}
-.projectCard#foodForThought:hover{
-    background: linear-gradient(#6FD397, #00bfff);
-}
-.projectCard#bao:hover{
-    background: linear-gradient(#7289DA, #e66465);
-}
-.projectCard#collaj:hover{
-    background: linear-gradient(#296C97, #333);
-}
-.projectCard#feedTheCat:hover{
-    background: linear-gradient(#424242, #EB9199);
+.jobCard#newDesign:hover{
+    background: linear-gradient(#2F99D4, #DF73FF );
 }
 
-.projectCard:hover .iconP{
+.jobCard:hover .iconJ{
     transform: scale(1.5);
 }
 
-.cardDivider {
+.cardDividerJ {
     border: 1px dashed white;
 }
 

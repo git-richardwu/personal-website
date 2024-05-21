@@ -1,6 +1,7 @@
 import Navbar from './components/navbar/Navbar.jsx';
 import AboutMe from './components/aboutme/AboutMe.jsx';
 import Skills from './components/skills/Skills.jsx';
+import Experience from './components/experience/Experience.jsx';
 import React, {useEffect, useState} from 'react';
 import Greetings from './components/Greetings.jsx';
 import ContactMe from './components/contactme/ContactMe.jsx';
@@ -30,6 +31,9 @@ function App() {
       </div>
       <div id="skills">
         <Skills/>
+      </div>
+      <div id="experience">
+        <Experience/>
       </div>
       {/* style={{ transform: `translateY(-${offset * 0.8}px)`}} */}
       <div id="projects">
