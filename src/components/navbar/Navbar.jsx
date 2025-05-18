@@ -35,6 +35,7 @@ export default function Navbar() {
                     <Link to="home" onClick={() => animateScroll.scrollToTop()} smooth={true} duration={1000}>Home</Link>
                     <Link to="aboutme" smooth={true} offset={-100} duration={1000}>About Me</Link>
                     <Link to="skills" smooth={true} offset={-100} duration={1000}>Skills</Link>
+                     <Link to="experience" smooth={true} offset={-100} duration={1000}>Experience</Link>
                     <Link to="projects" smooth={true} offset={-100} duration={1000}>Projects</Link>
                     <Link to="contactme" smooth={true} offset={-100} duration={1000}>Contact</Link>
                     <a className="resumeButton" rel="noopener noreferrer" target="_blank" href={resume}>Resume</a>

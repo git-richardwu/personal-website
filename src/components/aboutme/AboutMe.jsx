@@ -9,11 +9,11 @@ export default function AboutMe() {
                     About Me
                     <hr></hr>
                         <div className="cardDescription">
-                        I am a college graduate with a Bachelor's Degree in Computer Science from the University at Buffalo, specializing in front-end development within team projects. 
-                        My experience extends to full-stack development, particularly with MERN stack, I have a strong passion for UI/UX design and actively prototype interfaces for every project I am involved in. 
-                        Proficient in the Agile methodology, I thrive in collaborative work environments and am always eager to learn new technologies. 
-                        With a portfolio encompassing personal projects such as a dynamic hue sorting gallery and a browser typing game, I am now seeking a role in software engineering where I can continue to expand my skills, 
-                        contribute to innovative projects, and fuel my continuous growth as a developer.
+                        Front-end specialist with full-stack MERN experience and a Bachelor's degree in Computer Science. I've developed real-time applications including a Socket.IO-powered
+                        multiplayer game, a dynamic HSV-sorted art gallery, and a fast-paced typing game
+                        - all built with React/Node.js. Proficient in Agile workflows, I thrive in collaborative environments
+                        and approach problems with both technical rigor and mentorship experience from teaching coding/robotics. Eager to contribute my blend of UI/UX focus,
+                        full-stack capabilities, and continuous learning mindset to impactful software projects.
                         </div>
                 </div>
             </div>

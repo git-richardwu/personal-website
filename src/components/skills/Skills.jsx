@@ -16,11 +16,11 @@ export default function Skills() {
                                     </li>
                                     <li>
                                         <strong>Frameworks and Packages: </strong>
-                                            Bootstrap, React, Express, NodeJS, Mocha, Chai, Puppeteer, Flutter, Pandas, NumPy
+                                            Bootstrap, React, Express, Node.js, Mocha, Chai, Puppeteer, Flutter, Pandas, NumPy, Socket.IO
                                     </li>
                                     <li>
                                         <strong>Tools and Platforms: </strong>
-                                            Git/GitHub, VS Code, Postman, MongoDB, Figma, Android Studio
+                                            Git/GitHub, VS Code, Postman, MongoDB, Figma, Google Apps Script, Android Studio
                                     </li>
                                     <li>
                                         <strong>Coursework: </strong>

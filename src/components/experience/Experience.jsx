@@ -15,15 +15,13 @@ export default function Experience() {
                 {/* <div className="column"> */}
                     <div id="newDesign" className="jobCard">
                         <div className="jobCardHeader"> New Design High School </div>
-                        <div className="jobCardDesc">Technology Support Specialist</div>
+                        <div className="jobCardDesc">Coding and Robotics Instructor/Technology Support Specialist</div>
                         <hr className="cardDividerJ"></hr>
                         <div className="jobCardList">
                             <ul className="alignBullet">
-                                <li>Devise and implement script for updating spreadsheet and staff calendar with scheduled absences</li>
-                                <li>Deliver continuous support to instructors and staff members in resolving hardware and software issues</li>
-                                <li>Maintain inventory and routine diagnostics of over 500 devices and peripherals for repair records</li>
-                                <li>Became an administrator for Google Workspace to manage email accounts</li>
-                                <li>Coordinate and verified the operational readiness of over 250 devices for PSAT/SAT examination</li>
+                                <li>Designed and taught a project-based coding curriculum for 12 students using Sphero BOLTs, introducing core programming concepts (variables, loops, conditionals) through hands-on robotics projects</li>
+                                <li>Facilitated classroom activities to reinforce problem-solving and debugging skills, mentoring students to build a foundation for iterative development - mirroring Agile prototyping cycles</li>
+                                <li>Implemented a script (Google Apps Script) to auto-populate staff absences into calendars, eliminating manual data entry (100% reduction) and ensuring real-time accuracy for administrative scheduling</li>
                             </ul>
                         </div>
                             <hr className="cardDividerJ"></hr>

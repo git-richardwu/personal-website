@@ -15,7 +15,7 @@ export default function Greetings() {
           }}/>
       </div>
       <div className="text-style2">
-           Software Engineer | College Graduate | Amateur Game Developer
+           Software Engineer | Computer Science, B.S. | Game Developer
       </div>
     </div>
   );
