@@ -47,8 +47,7 @@ export default function Projects() {
                             <ul className="alignBullet">
                                 <li>Led wireframe prototyping in Figma, streamlining production time by a week and accelerating feature delivery for a team of 4 engineers</li>
                                 <li>Delivered user-centric features (profile picture uploads, intuitive onboarding process, and streamlined navigation), enhancing usability based on user feedback</li>
-                                <li>Authored comprehensive user stories and acceptance tests, reducing sprint-end defect discovery</li>
-                                <li>Conducted usability tests and highlighted design decisions with accessibility principles in mind</li>
+                                <li>Wrote user stories and acceptance tests with accessibility-driven design, greatly reducing sprint defects</li>
                             </ul>
                         </div>
                         <hr className="cardDivider"></hr>
@@ -110,7 +109,7 @@ export default function Projects() {
                             <ul className="alignBullet">
                                 <li>Deployed a RESTful API using Express/Node.js for seamless CRUD operations, leveraging MongoDB for efficient data storage and retrieval</li>
                                 <li>Automated artwork data collection using Puppeteer to scrape and parse dynamic web content (titles, artist names, URLs) via DOM traversal</li>
-                                <li>Secured user sessions via JWT/BCrypt authentication and encrypted data storage</li>
+                                <li>Secured user sessions via JWT (JSON Web Tokens)/BCrypt authentication and encrypted data storage</li>
                                 <li>Validated API reliability with Mocha/Chai test suites for performance and edge-case handling</li>
                             </ul>
                         </div>

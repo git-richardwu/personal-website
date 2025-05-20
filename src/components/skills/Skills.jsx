@@ -6,7 +6,7 @@ export default function Skills() {
         <div className="cardS">
             <div className="cardBodyS">
                 <div className="cardHeaderS">
-                    Skills
+                    Technical Skills
                     <hr></hr>
                             <div className="cardDescriptionS">
                                 <ul>

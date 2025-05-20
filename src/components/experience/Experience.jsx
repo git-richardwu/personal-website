@@ -7,7 +7,7 @@ export default function Experience() {
         <div className="cardP">
             <div className="cardBodyS">
             <div className="cardHeaderP">
-                    Experience
+                    Work Experience
                     <hr></hr>
                 </div>
             </div>
