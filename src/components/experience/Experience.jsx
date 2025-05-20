@@ -19,9 +19,9 @@ export default function Experience() {
                         <hr className="cardDividerJ"></hr>
                         <div className="jobCardList">
                             <ul className="alignBullet">
-                                <li>Designed and taught a project-based coding curriculum for 12 students using Sphero BOLTs, introducing core programming concepts (variables, loops, conditionals) through hands-on robotics projects</li>
+                                <li>Designed and taught a project-based coding curriculum for 12 students using Sphero BOLTs, introducing core programming concepts through hands-on robotics projects</li>
                                 <li>Facilitated classroom activities to reinforce problem-solving and debugging skills, mentoring students to build a foundation for iterative development - mirroring Agile prototyping cycles</li>
-                                <li>Implemented a script (Google Apps Script) to auto-populate staff absences into calendars, eliminating manual data entry (100% reduction) and ensuring real-time accuracy for administrative scheduling</li>
+                                <li>Utilized Google Apps Script to auto-populate staff absences into calendars, eliminating manual data entry and ensuring real-time accuracy for administrative scheduling</li>
                             </ul>
                         </div>
                             <hr className="cardDividerJ"></hr>

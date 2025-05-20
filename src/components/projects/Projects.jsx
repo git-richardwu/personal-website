@@ -26,7 +26,7 @@ export default function Projects() {
                         <div className="projectCardList">
                             <ul className="alignBullet">
                                 <li>Developed real-time client-server synchronization using Socket.IO’s event-driven architecture, with    React (TypeScript) for state management via custom hooks and Context API to reduce latency</li>
-                                <li>Architected scalable matchmaking on Node.js/Socket.IO (Render) using room partitioning and targeted event broadcasting to support 200+ concurrent users</li>
+                                <li>Implemented scalable matchmaking on Node.js/Socket.IO (Render) using room partitioning and targeted event broadcasting to support 200+ concurrent users</li>
                                 <li>Formulated a template-driven item system using weighted randomness and parametric inheritance, reducing new feature prototyping time by 60% while driving a 30% improvement in user engagement via level-based drop rates</li>
                                 <li>Optimized UI with React hooks and prioritized visual hierarchy, cutting first-time user errors by 50%</li>
                             </ul>
