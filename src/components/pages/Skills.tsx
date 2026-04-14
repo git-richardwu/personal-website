@@ -12,7 +12,7 @@ const spriteData = {
         name: "Misprint Fortune Cookie",
         src: Cookie,
         id: "cookie",
-        description: `"odiacs, culpri not   lyin"`,
+        description: `"odiacs, culpri not   lyin"\nBest read it out loud.`,
         list: []
     }
 }
