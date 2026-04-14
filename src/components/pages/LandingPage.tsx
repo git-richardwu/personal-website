@@ -63,7 +63,7 @@ const LandingPage = () => {
                             exit={{ opacity: 0, y: 10, scale: 0.9 }}
                             transition={{ duration: 0.3 }} className="objective">
                             <p>When you have gathered all the evidence, click on the icon below to check the list of suspects and make your deduction! </p>
-                            <MdGroups2 onClick={handleClick} color={'#444444'} size={42}/>
+                            <MdGroups2 style={{cursor: 'pointer'}} onClick={handleClick} color={'#444444'} size={42}/>
                         </motion.div> : null}
                     </AnimatePresence>
                 </div>
