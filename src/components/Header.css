@@ -21,6 +21,9 @@
     justify-content: left;
     letter-spacing: 0.04em;
     align-items: center;
+    opacity: 0;
+    transform: translateY(-5px);
+    animation: fadeIn 0.5s ease-out forwards;
 }
 
 .name-style {
@@ -40,6 +43,12 @@
     letter-spacing: 0.04em;
 }
 
+.sub-titles h3 {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
 .toggle-label {
     font-size: 20px;
     margin-top: 0;
@@ -48,14 +57,17 @@
 
 .sub-titles h3:nth-child(1) {
     padding-left: 20px;
+    animation-delay: 0.2s;
 }
 
 .sub-titles h3:nth-child(2) {
     padding-left: 5px;
+    animation-delay: 0.3s;
 }
 
 .sub-titles h3:nth-child(3) {
     padding-left: 23px;
+    animation-delay: 0.4s;
 }
 
 .mystery-toggle {
@@ -66,14 +78,27 @@
 
 .mystery-toggle h3:nth-child(1) {
     padding-left: 2px;
+    animation-delay: 0.9s;
 }
+
 
 .toggle-switch {
     position: relative;
     display: inline-block;
     width: 40px;
     height: 24px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-delay: 0.9s;
 }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .toggle-switch input {
     opacity: 0;

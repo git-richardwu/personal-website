@@ -1,45 +1,69 @@
 .main-content {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
-    
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+
 }
 
 .navigation-layout {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    max-width: 500px;
-    width: 100%;
-    padding: 30px;
-    transform: rotate(45deg);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  transform: rotate(45deg);
 }
 
 .tile {
-    aspect-ratio: 1 / 1;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.6s ease-out, transform 0.4s cubic-bezier(.17, .67, .83, 1.27);
+}
+
+.tile.animate.tile-1 {
+  transition-delay: 0.1s;
+}
+
+.tile.animate.tile-2 {
+  transition-delay: 0.2s;
+}
+
+.tile.animate.tile-3 {
+  transition-delay: 0.3s;
+}
+
+.tile.animate.tile-4 {
+  transition-delay: 0.4s;
+}
+
+.tile.animate {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .tile:hover {
-    transform: translate(6px, 6px);
+  transform: translate(6px, 6px);
 }
 
 .tile-text {
-    font-size: 36px;
-    font-family: "Noto Serif JP", serif;
-    letter-spacing: 0.06em;
-    color: inherit;
-    user-select: none;
+  font-size: 36px;
+  font-family: "Noto Serif JP", serif;
+  letter-spacing: 0.06em;
+  color: inherit;
+  user-select: none;
 }
 
 @media (max-width: 1500px) {
