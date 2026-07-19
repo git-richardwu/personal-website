@@ -29,20 +29,44 @@ const data = {
       company: "New Design High School",
       period: "2023 - Present",
       bullets: [
-        "Designed and delivered project-based robotics curriculum teaching core programming concepts (loops, conditionals, event-driven programming) through Sphero BOLT platforms",
-        "Mentored students through systematic debugging workflows and iterative development cycles, applying Agile-inspired methodologies to reinforce problem-solving frameworks used in professional software development",
-        "Developed automated absence tracking system syncing staff schedules to centralized calendars, eliminating manual data entry for 50+ staff members",
-        "Engineered Google Apps Script automation consolidating data from 10+ spreadsheets to generate 400+ individualized progress reports with conditional formatting, custom templates, and automated email distribution - eliminating 13+ hours of manual work per reporting cycle",
+        "Designed and delivered project-based robotics curriculum teaching core programming concepts - including loops, conditionals, event-driven logic - using Sphero BOLT platforms",
+        "Applied Agile-inspired workflows to mentor students through systematic debugging and iterative development cycles, reinforcing real-world software practices",
+        "Deployed automated absence tracking system syncing staff schedules to centralized calendars, eliminating manual data entry for 50+ staff members",
+        "Eliminated 13+ hours of manual work per cycle by engineering a Google Apps Script automation that consolidated 10+ spreadsheets into 400+ individualized progress reports with conditional formatting, custom templates, and automated email distribution",
       ],
     },
   ],
   projects: [
     {
+      name: "ARQS",
+      description: "Community Character Glossary",
+      period: "2026",
+      bullets: [
+        "Built a full-stack Wikipedia-style platform allowing for community contributions and real-time glossary management, deployed on Railway with CI/CD",
+        "Designed and built an intuitive UI that streamlines the full content lifecycle—browsing, editing, and resolving conflicting changes—within a single cohesive workflow",
+        "Integrated the OpenLibrary API to dynamically enrich pages with book data, including covers, author details, and publication metadata",
+        "Eliminated a key performance bottleneck by refactoring algorithm to consolidate redundant API calls into single call at initialization, reducing call volume by roughly 5x and improving response times",
+      ],
+      stack: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Postgresql",
+        "Docker",
+        "Railway"
+      ],
+      links: {
+        github: "https://github.com/git-richardwu/gloss",
+        demo: "https://gloss-frontend-production.up.railway.app/search",
+      },
+    },
+    {
       name: "numBRR",
       description: "Browser-Based Multiplayer Auto-Battler Game",
       period: "2025",
       bullets: [
-        "Developed real-time client-server synchronization using Socket.IO’s event-driven architecture, with React (TypeScript) for state management via custom hooks and Context API to reduce latency",
+        "Reduced sync latency by designing a real-time event-driven architecture with Socket.IO and streamlined React state management via custom hooks and Context API in TypeScript",
         "Implemented scalable matchmaking on Node.js/Socket.IO (Render) using room partitioning and targeted event broadcasting to support 200+ concurrent users",
         "Formulated a template-driven item system using weighted randomness and parametric inheritance, reducing new feature prototyping time by 60% while driving a 30% improvement in user engagement via level-based drop rates",
         "Optimized UI with React hooks and prioritized visual hierarchy, cutting first-time user errors by 50%",
@@ -83,8 +107,8 @@ const data = {
         "MERN-based web application of a dynamic art gallery that sorts entries by hue",
       period: "2022",
       bullets: [
-        "Deployed a RESTful API using Express/Node.js for seamless CRUD operations, leveraging MongoDB for efficient data storage and retrieval",
-        "Automated artwork data collection using Puppeteer to scrape and parse dynamic web content (titles, artist names, URLs) via DOM traversal",
+        "Implemented RESTful API with Express/Node.js and MongoDB for high-performance CRUD operations",
+        "Engineered Puppeteer scraper to automate extraction of artwork metadata from dynamic web pages",
         "Secured user sessions via JWT (JSON Web Tokens)/BCrypt authentication and encrypted data storage",
         "Validated API reliability with Mocha/Chai test suites for performance and edge-case handling",
       ],
