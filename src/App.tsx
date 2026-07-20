@@ -81,7 +81,7 @@ const data = {
       ],
       links: {
         github: "https://github.com/git-richardwu/num-brrr",
-        demo: "https://num-brrr.onrender.com/",
+        demo: "https://numbrrr.up.railway.app/",
       },
     },
     {
