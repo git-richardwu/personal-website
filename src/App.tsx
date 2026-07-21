@@ -90,10 +90,9 @@ const data = {
         "Fast-paced browser game that involves accurately preparing and delivering dishes to feline patrons",
       period: "2023",
       bullets: [
-        "Wrote the game's logic in React and TypeScript to efficiently update components and assets, optimizing overall responsiveness and fluidity of gameplay loop",
-        "Configured random sequence and position generation along with a retentive scoring system to increase player engagement",
-        "Incorporated minimalist interface with animations to provide visual feedback and readability",
-        "Leveraged the benefits of TypeScript's static typing to allow for smooth integration with React, improving code reliability and maintainability",
+        "Developed core game logic in React and TypeScript, optimizing rendering for a fluid, responsive gameplay loop",
+        "Built dynamic content generation and a persistent scoring system to boost engagement and replayability",
+        "Designed a minimalist, animation-driven UI for clear visual feedback during fast-paced play"
       ],
       stack: ["React", "TypeScript", "Sass"],
       links: {
