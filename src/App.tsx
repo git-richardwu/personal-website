@@ -58,7 +58,7 @@ const data = {
       ],
       links: {
         github: "https://github.com/git-richardwu/gloss",
-        demo: "https://gloss-frontend-production.up.railway.app/search",
+        demo: "https://arqs.up.railway.app/search",
       },
     },
     {
