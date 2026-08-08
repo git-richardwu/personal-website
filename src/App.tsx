@@ -38,6 +38,26 @@ const data = {
   ],
   projects: [
     {
+      name: "Gnose",
+      description: "Fragrance Note Botanical Journal",
+      period: "2026",
+      bullets: [
+        "Wireframed the interface to validate layout decisions before implementation, reducing design rework time during development by 25%",
+        "Translated wireframes into a fully responsive, production-ready UI using React and Tailwind CSS, ensuring 100% layout fidelity across all viewports",
+        "Strengthened readability and user experience across all pages by refining visual hierarchy, typography, and spacing",
+        "Cut page-creation time by 50% and eliminated 5+ duplicated component files by building a template-driven architecture that generates new pages from reusable templates",
+      ],
+      stack: [
+        "React",
+        "Tailwind",
+        "Railway"
+      ],
+      links: {
+        github: "https://github.com/git-richardwu/gnose",
+        demo: "https://gnose.up.railway.app/",
+      },
+    },
+    {
       name: "ARQS",
       description: "Community Character Glossary",
       period: "2026",
